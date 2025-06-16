@@ -127,7 +127,13 @@ Nessa página, você pode visualizar e testar todos os endpoints disponíveis da
 
 ## Dicas Úteis
 
-- Para acessar as rotas autentificadas da API, voce deve excecutar primeiro a rota `/api/users/create-base-user`, depois `/api/users/login`
+- Para acessar as rotas autentificadas da API, voce deve excecutar primeiro a rota `/api/users/create-base-user`. ele disponibiliza um usuario:
+```json
+{
+  "email": "admin@tempus.com.br",
+  "password": "Tempus@2025"
+}
+```
 - Para visualizar os containers Docker em execução: `docker ps`
 - Para acessar o banco de dados via terminal:
 
