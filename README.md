@@ -14,7 +14,6 @@ Este projeto é uma API desenvolvida em [Laravel](https://laravel.com/) utilizan
 - [Executando as Migrações](#executando-as-migrações)
 - [Rodando a API](#rodando-a-api)
 - [Documentação da API (Swagger)](#documentação-da-api-swagger)
-- [Testes](#testes)
 - [Dicas Úteis](#dicas-úteis)
 - [Problemas Comuns](#problemas-comuns)
 - [Licença](#licença)
