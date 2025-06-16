@@ -35,7 +35,7 @@ Certifique-se de ter instalado em sua máquina:
 
 ```bash
 git clone https://github.com/Dan1elz/tempus-api.git
-cd seu-projeto
+cd tempus-api
 ```
 
 ---
@@ -62,32 +62,32 @@ docker run -e 'ACCEPT_EULA=1' -e POSTGRES_PASSWORD=SuaSenhaForte123 -e POSTGRES_
 
 1. Instale as dependências do projeto:
 
-        ```bash
-        composer install
-        ```
+```bash
+composer install
+```
 
 2. Copie o arquivo de variáveis de ambiente:
 
-        ```bash
-        cp .env.example .env
-        ```
+```bash
+cp .env.example .env
+```
 
 3. Edite o arquivo `.env` e configure as variáveis de conexão com o banco de dados:
 
-        ```
-        DB_CONNECTION=pgsql
-        DB_HOST=127.0.0.1
-        DB_PORT=5432
-        DB_DATABASE=tempus-database
-        DB_USERNAME=postgres
-        DB_PASSWORD=SuaSenhaForte123
-        ```
+```
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=tempus-database
+DB_USERNAME=postgres
+DB_PASSWORD=SuaSenhaForte123
+```
 
 4. Gere a chave da aplicação:
 
-        ```bash
-        php artisan key:generate
-        ```
+```bash
+php artisan key:generate
+```
 
 ---
 
@@ -131,9 +131,9 @@ Nessa página, você pode visualizar e testar todos os endpoints disponíveis da
 - Para visualizar os containers Docker em execução: `docker ps`
 - Para acessar o banco de dados via terminal:
 
-        ```bash
-        docker exec -it tempus-postgres psql -U postgres
-        ```
+```bash
+docker exec -it tempus-postgres psql -U postgres
+```
 ---
 
 ## Problemas Comuns
